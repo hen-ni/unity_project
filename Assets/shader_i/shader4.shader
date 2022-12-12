@@ -26,7 +26,7 @@ Shader "My/SurfaceShader/shader4"
             fixed4 c = tex2D(_MainTex1, IN.uv_MainTex1);
             fixed4 d = tex2D(_MainTex2, IN.uv_MainTex2);
             //o.Albedo = c.rgb;
-            o.Albedo = lerp(c.rgb, d.rgb, 0.5);
+            o.Albedo = lerp(c.rgb, d.rgb, 0.3);
             o.Alpha = c.a;
         }
         ENDCG
