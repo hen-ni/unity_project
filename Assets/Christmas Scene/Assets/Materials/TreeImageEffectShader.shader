@@ -1,4 +1,4 @@
-Shader "Assets/Christmas Scene/Assets/Scene/TreeImageEffectShader"
+Shader "Assets/Christmas Scene/Assets/Materials/TreeImageEffectShader"
 {
     Properties
     {
