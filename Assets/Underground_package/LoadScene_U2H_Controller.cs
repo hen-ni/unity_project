@@ -17,6 +17,5 @@ public class LoadScene_U2H_Controller : MonoBehaviour
     private void OnMouseDown()
     {
         SceneManager.LoadScene("Heaven");
-        print("dd");
     }
 }
