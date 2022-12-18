@@ -1,10 +1,9 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_TEXT_jaehee : MonoBehaviour
+public class UI_TEXT_all : MonoBehaviour
 {
     public GameObject MyGameObject;
 
@@ -12,7 +11,7 @@ public class UI_TEXT_jaehee : MonoBehaviour
     void Start()
     {
         string name = MyGameObject.name;
-        name += " made by jaehee";
+        name += "made by all";
         GetComponent<Text>().text = name;
     }
 
