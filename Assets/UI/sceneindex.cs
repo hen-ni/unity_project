@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class  sceneindex : MonoBehaviour
 {
     public Object SceneToLoad;
-Scene CurrentScene;
+    Scene CurrentScene;
 
 void Start()
 {
@@ -14,8 +14,11 @@ void Start()
     print("CurrentScene = " + CurrentScene.name);
 }
 
-private void OnMouseDown()
+void Update()
 {
-    SceneManager.LoadScene(SceneToLoad.name);
+    if (Input.GetKeyDown(KeyCode.U))
+        {
+            SceneManager.LoadScene(SceneToLoad.name);
+        }
 }
 }
